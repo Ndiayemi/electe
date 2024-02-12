@@ -1,0 +1,330 @@
+/* public/css/styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-color: #3498db; /* Couleur de fond de la bannière */
+    color: #fff; /* Couleur du texte */
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px; /* Ajustez la largeur selon votre besoin */
+    height: auto; /* Pour conserver les proportions */
+    margin-right: 10px; /* Espacement entre le logo et le texte */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* public/css/description.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond de la page */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* Couleur de fond de la boîte de description */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.description {
+    text-align: center;
+    color: #333; /* Couleur du texte */
+}
+
+.container h1 {
+    color: #007bff; /* Couleur du titre */
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* public/css/description.css */
+
+/* ... (votre style existant) ... */
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 800px;
+}
+
+.feature img {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    font-size: 18px;
+    color: #007bff; /* Couleur du titre de l'avantage */
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555; /* Couleur du texte de l'avantage */
+}
+
+/* ... (votre style existant) ... */
+
+.quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    background-color: #333;
+}
+
+.quick-link-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    text-decoration:none;
+    color: #fff; /* Couleur du texte des boutons */
+    /* background-color: rgb(221, 217, 208); Couleur de fond des boutons */
+    /* border: 1px solid #007bff; */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.quick-link-btn:hover {
+    background-color: #dfe1e2; /* Couleur de fond des boutons au survol */
+    text-decoration: none;
+}
+/* ... (votre style existant) ... */
+
+/* ... (votre style existant) ... */
+/* ... (votre style existant) ... */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Couleur de fond du pied de page */
+}
+
+.footer-links,
+.legal-links,
+.contact-info,
+.copyright-info {
+    margin-top: 10px;
+}
+
+.footer-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff; /* Couleur du texte des liens du pied de page */
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #0056b3; /* Couleur du texte au survol des liens du pied de page */
+}
+
+
+/* public/css/inscription.css */
+
+.inscription-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: aqua;
+}
+.inscription-container h1{
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.btn-danger {
+    background-color: red;
+    color: white;
+    width: 100%;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width:25%;
+}
+.btn-warning{
+    color: white;
+    width: 100%;
+}
+
+/* button:hover {
+    background-color: #218838;
+} */
+
+
+
+/* public/css/espace_electeur.css */
+
+.espace-electeur-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.informations-personnelles {
+    margin-bottom: 20px;
+}
+
+.acces-bulletin,
+.instructions-vote {
+    margin-top: 30px;
+}
+
+.acces-bulletin a {
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    width: 300px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.acces-bulletin a:hover {
+    background-color: #0056b3;
+}
+
+
+/* public/css/bulletin_vote.css */
+
+.bulletin-vote-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* public/css/espace_electeur.css */
+
+/* ... (votre style existant) ... */
+
+.instructions-vote {
+    margin-top: 30px;
+}
+
+.instructions-vote h2 {
+    color: #007bff;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 5px; /* Ajoutez un padding pour l'espace autour du texte dans les cellules */
+    text-align: center; /* Centrez le texte dans les cellules */
+}
+
+.table thead th {
+    background-color: #f8f9fa; /* Ajoutez une couleur de fond à l'en-tête */
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn {
+    flex: 1; /* Partagez l'espace disponible entre les boutons */
+    margin: 0 4px; /* Ajoutez une marge entre les boutons */
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    border-color: #dc3545; 
+    color: #fff; 
+}
+
+
+.instructions-vote ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* public/css/espace_candidat.css */
+
+.espace-candidat-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.depot-candidature,
+.informations-candidats {
+    margin-top: 30px;
+}
+
+.depot-candidature form {
+    display: flex;
+    flex-direction: column;
+}
+
+.depot-candidature label {
+    margin-top: 10px;
+}
+
+.depot-candidature input,
+.depot-candidature button {
+    margin-top: 5px;
+}
+
+.mt-4{
+    text-align: center;
+    border: #28a745;
+
+}
+
+
+
